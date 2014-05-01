@@ -1,1 +1,1 @@
-function(){return React.DOM.p({"className":this.productType});}
+function(){return m("p",{"className":this.productType});}

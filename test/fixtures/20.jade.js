@@ -1,1 +1,1 @@
-function(){return React.DOM.p({"className":"markup array "+dynamic});}
+function(){return m("p",{"className":"markup array "+dynamic});}

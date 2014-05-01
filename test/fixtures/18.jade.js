@@ -1,1 +1,1 @@
-function(){return React.DOM.p({"className":"foo "+local+" baz"});}
+function(){return m("p",{"className":"foo "+local+" baz"});}

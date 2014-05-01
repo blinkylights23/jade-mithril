@@ -1,1 +1,1 @@
-function(){return React.DOM.p({"className":"customClass","title":"customTitle"});}
+function(){return m("p",{"className":"customClass","title":"customTitle"});}

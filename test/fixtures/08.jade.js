@@ -1,1 +1,1 @@
-function(){return React.DOM.p({"className":"customClass1 customClass2"});}
+function(){return m("p",{"className":"customClass1 customClass2"});}

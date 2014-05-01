@@ -1,5 +1,5 @@
 function () {
-  return React.DOM.input({
+  return m("input",{
       "checked": true,
       "type": "checkbox"
     });

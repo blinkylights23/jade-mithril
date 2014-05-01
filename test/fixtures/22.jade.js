@@ -1,1 +1,1 @@
-function(){return CustomTag({"customAttribute":"customValue"});}
+function(){return m("CustomTag",{"customAttribute":"customValue"});}

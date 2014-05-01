@@ -1,5 +1,5 @@
 function () {
-  return React.DOM.a(null,
-    React.DOM.img(null)
+  return m("a",null,
+    m("img",null)
   );
 }

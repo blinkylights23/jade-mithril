@@ -1,5 +1,5 @@
 function () {
-  return CustomTag({
+  return m("CustomTag",{
       "customAttribute": "customValue"
     });
 }

@@ -1,6 +1,6 @@
 function () {
-  return React.DOM.ul(null,
-    React.DOM.li(null,
+  return m("ul",null,
+    m("li",null,
       "Text"
     )
   );

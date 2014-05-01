@@ -1,5 +1,3 @@
-React = require('react')
-
 isString = (s) -> '\'' == s[0] || '"' == s[0]
 toString = (s) -> s.slice(1, s.length - 1)
 
@@ -59,9 +57,7 @@ Compiler = (node, options) ->
 
     visitTag = (tag) ->
       bufferExpression(indentToDepth())
-      if React.DOM[tag.name]
-        bufferExpression('React.DOM.')
-      bufferExpression(tag.name, '(')
+      bufferExpression('m("', tag.name, '",')
 
       visitAttributes(tag.attrs, tag.attributeBlocks)
 

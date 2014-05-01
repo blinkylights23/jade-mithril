@@ -1,1 +1,1 @@
-function(){return React.DOM.select({"value":"B"},React.DOM.option({"value":"A"},"Apple"),React.DOM.option({"value":"B"},"Banana"),React.DOM.option({"value":"C"},"Cranberry"));}
+function(){return m("select",{"value":"B"},m("option",{"value":"A"},"Apple"),m("option",{"value":"B"},"Banana"),m("option",{"value":"C"},"Cranberry"));}

@@ -1,1 +1,1 @@
-function(){return React.DOM.p(null,variable);}
+function(){return m("p",null,variable);}

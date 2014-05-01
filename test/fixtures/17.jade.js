@@ -1,1 +1,1 @@
-function(){return React.DOM.p({"className":"foo "+this.classProp+" baz"});}
+function(){return m("p",{"className":"foo "+this.classProp+" baz"});}

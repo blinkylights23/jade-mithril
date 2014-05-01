@@ -1,1 +1,1 @@
-function(){return React.DOM.input({"checked":true,"type":"checkbox"});}
+function(){return m("input",{"checked":true,"type":"checkbox"});}

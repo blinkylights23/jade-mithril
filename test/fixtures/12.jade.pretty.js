@@ -6,9 +6,9 @@ function () {
     return result;
   }
 
-  return React.DOM.ul(null,
+  return m("ul",null,
       map(products, function (product, $index) {
-        return React.DOM.li(null,
+        return m("li",null,
           "Product",
           product.name
         );

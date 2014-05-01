@@ -1,7 +1,7 @@
 {
-  "name": "jade-react",
+  "name": "jade-mithril",
   "version": "0.2.0",
-  "description": "Compile Jade to React components",
+  "description": "Compile Jade to Mithril components",
   "main": "src/main.coffee",
   "scripts": {
     "test": "gulp test --require coffee-script"
@@ -12,8 +12,7 @@
     "coffee-script": "~1.6.3",
     "jade": "~1.1.5",
     "uglify-js": "~2.4.12",
-    "envify": "~0.2.0",
-    "react": "~0.8.0"
+    "envify": "~0.2.0"
   },
   "devDependencies": {
     "gulp": "~3.5.0",
@@ -25,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/duncanbeevers/jade-react.git"
+    "url": "https://github.com/ysimonson/jade-mithril.git"
   },
   "keywords": [
     "jade",
-    "react",
+    "mithril",
     "jsx"
   ],
   "bugs": {
-    "url": "https://github.com/duncanbeevers/jade-react/issues"
+    "url": "https://github.com/ysimonson/jade-mithril/issues"
   }
 }

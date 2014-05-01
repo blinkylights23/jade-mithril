@@ -1,5 +1,5 @@
 function () {
-  return React.DOM.p(null,
+  return m("p",null,
     "Text 1",
     "Text 2"
   );

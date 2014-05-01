@@ -1,1 +1,1 @@
-function(){return React.DOM.a(null,React.DOM.img(null));}
+function(){return m("a",null,m("img",null));}

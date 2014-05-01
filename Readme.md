@@ -1,6 +1,6 @@
-# jade-react
+# jade-mithril
 
-Compile Jade templates to React de-sugared JSX.
+Compile Jade templates to Mithril templates.
 
 ```jade
 .container-fluid.readme
@@ -24,18 +24,18 @@ function () {
     return result;
   }
 
-  return React.DOM.div({
+  return m("div", {
     "className": "container-fluid readme"
   },
-    React.DOM.div({
+    m("div", {
       "className": "row"
     },
-      React.DOM.h1(null,
+      m("h1", null,
         this.storeName
       ),
-      React.DOM.ul(null),
+      m("ul", null),
         map(this.products, function (product, $index) {
-          return React.DOM.li(null,
+          return m("li", null,
             "Product",
             product.title
           );

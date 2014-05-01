@@ -1,18 +1,18 @@
 function () {
-  return React.DOM.select({
+  return m("select",{
       "value": "B"
     },
-    React.DOM.option({
+    m("option",{
         "value": "A"
       },
       "Apple"
     ),
-    React.DOM.option({
+    m("option",{
         "value": "B"
       },
       "Banana"
     ),
-    React.DOM.option({
+    m("option",{
         "value": "C"
       },
       "Cranberry"

@@ -1,1 +1,1 @@
-function(){return React.DOM.p(null);}
+function(){return m("p",null);}
