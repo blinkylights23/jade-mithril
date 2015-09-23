@@ -1,15 +1,18 @@
 {
   "name": "jade-mithril",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Compile Jade to Mithril components",
-  "main": "src/main.coffee",
+  "main": "src/main.js",
   "scripts": {
-    "test": "gulp test --require coffee-script"
+    "test": "gulp test"
   },
-  "author": "Duncan Beevers",
+  "author": "Paul Smith <paul@paulsmith.io>",
+  "contributors": [
+    { "name": "Yusuf Simonson (https://github.com/ysimonson/jade-mithril)" },
+    { "name": "Duncan Beevers (https://github.com/duncanbeevers/jade-react)" },
+  ],
   "license": "WTFPL",
   "dependencies": {
-    "coffee-script": "~1.6.3",
     "jade": "~1.1.5",
     "uglify-js": "~2.4.12",
     "envify": "~0.2.0"
@@ -24,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ysimonson/jade-mithril.git"
+    "url": "https://github.com/blinkylights23/jade-mithril.git"
   },
   "keywords": [
     "jade",
@@ -32,6 +35,6 @@
     "jsx"
   ],
   "bugs": {
-    "url": "https://github.com/ysimonson/jade-mithril/issues"
+    "url": "https://github.com/blinkylights23/jade-mithril/issues"
   }
 }
